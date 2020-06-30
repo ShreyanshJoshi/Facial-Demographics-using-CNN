@@ -10,7 +10,7 @@ This project includes 2 seperate tasks  -
 
 ![myimg](readme_img/classifiers.PNG)       
 
-* **Age Estimation** - This was a regression task. The model was trained on *WIKIFace* dataset (34,200 images). The model attained a validation mae of 6.55 which shows the average magnitude of error in predicting age.
+* **Age Estimation** - This was a regression task. The model was trained on *WIKIFace* dataset (34,200 images). The model attained a validation mae of 6.55 (the average magnitude of error in predicting the exact age).
 
 *Model architecture* -
 
@@ -26,7 +26,7 @@ This project includes 2 seperate tasks  -
 I created this end-to-end project in my 6 week internship at **Silver Touch Technologies Ltd.** which was held under PS1 program of BITS Pilani. We were a team of 4 members and everyone was assigned to work on different approaches to tackle this problem. I was assigned to create a CNN from scratch. Special thanks to the entire SilverTouch team for providing this wonderful opportunity to me.
 
 ### Importance in real world
-Recognizing a person is perhaps the most subconscious task done in our daily lives- right from waking up and recognizing our loved-ones to recognizing our boss at work. And the 2 most fundamental things required to identify someone are age & gender. With AI knocking on the door, no doubt this is one of the hottest fields in computer science these days. The goal of this project is to analyse the demographics of any population by just looking at their faces and predicting their age and gender. Here are some more real life applications of this project-
+Recognizing a person is perhaps the most subconscious task done in our daily lives- right from waking up and recognizing our loved-ones to recognizing our boss at work. And the 2 most fundamental things required to identify someone are age & gender. With AI increasingly augmenting our lives, no doubt this is one of the hottest fields in computer science these days. The goal of this project is to analyse the demographics of any population by just looking at their faces and predicting their age and gender. Here are some real life applications of this project-
 * **Embedding with IoT and making a real life solution.** A simple e.g - Fit a camera outside a bar/restaurant that clicks photos of people entering. When sufficient number of people have entered, run the model on their stored faces and get the average age and gender. Accordingly, play the music / change the lights by integrating IoT into the system.
 
 * **Forensics** - To predict the age/gender of a dead person. This project can be extended to train on images of skeletons. In that case, it would be able to predict the age and gender of a person whose skeleton has been found. Perhaps even a skeleton belonging to the Stone Age !
@@ -39,7 +39,7 @@ For detailed analysis, please refer to the report I have uploaded in this reposi
 ## Local testing
 Step 1 - Install (upgrade) the latest version of pip, python, tensorflow, keras using Anaconda prompt on Windows, or Terminal if you are using Linux or macOS.
 The command for checking the latest version of anything (say tensorflow) is to type `pip install tensorflow==`. 
-To install type `pip install tensorflow`
+To install a version (say 2.2) type `pip install tensorflow==2.2`
 
 Step 2  - Clone any one of (or both) - **Age & Gender Prediction , Age Estimation** present inside the **Deployment** folder . Store it somewhere on your local machine.
 
@@ -47,7 +47,7 @@ Step 3 - Go into the directory of any folder that you cloned and type `python ap
 
 Step 4 - A server is hosted locally and the model has been deployed. Go to that server (http://127.0.0.1:5000/) and upload a cropped image.
 
-**Note: Since, the datasets used by me were highly imbalanced (yet very popular :) ) (as you would see in the report/notebooks), the model is bound to make better predictions when the actual age lies between 23-24 to about 80 (especially the Age Estimation one. For age estimation pls enter only images between 25-75 yrs old as its dataset (WIKI) had 90 % images within that range.)** 
+**Note: Since, the datasets used by me were highly imbalanced (yet very popular :) ) (as you would see in the report/notebooks), the model is bound to make better predictions when the actual age lies between 23-24 to about 80 (especially the Age Estimation one. For age estimation pls upload only images between 25-75 yrs old as its dataset (WIKI) had 90 % images within that range.)** 
 
 ## To do
 1. Add a face-detection algorithm such as Dlib, MTCNN so that user need not crop the image manually before uploading.
@@ -80,7 +80,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 <img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/readme_img/2.png" width=200 align="right">
 <img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/readme_img/4.PNG" width=200 align="left">
 <img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/readme_img/3.png" width=200 align="right"> 
-                  
+<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/readme_img/5.jpg" width=350 align="left">
                   
                 
 
