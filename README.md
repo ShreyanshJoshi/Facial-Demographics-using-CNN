@@ -16,7 +16,7 @@ This project includes 2 seperate tasks  -
 
 ![myimg](regress.PNG)  
 
-## Demo Screenshot
+## Working Demo Screenshot
 
 ![myimg](class1.PNG)                                                                                   
 
@@ -45,13 +45,24 @@ For detailed analysis, please refer to the report I have uploaded in this reposi
 * UTKFace - http://aicip.eecs.utk.edu/wiki/UTKFace
 * WIKI Face - https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/
 
+ ## License
+ Copyright 2020 Shreyansh Joshi
+
+Licensed under the Apache License, Version 2.0 ("License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+`http://www.apache.org/licenses/LICENSE-2.0`
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 ## Technologies Used
 
 <img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/1.png" width=300 align="left">
 <img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/2.png" width=200 align="right">
 <img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/4.PNG" width=200 align="left">
-<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/3.png" width=200 align="right">
+<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/3.png" width=200 align="right"> 
+                  
+                  
+                
 
 
 
