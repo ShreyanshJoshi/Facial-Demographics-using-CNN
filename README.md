@@ -16,14 +16,22 @@ This project includes 2 seperate tasks  -
 
 ![myimg](readme_img/regress.PNG)  
 
-## Working Demo Screenshot
+## Working-demo screenshot
 
 ![myimg](readme_img/class1.PNG)                                                                                   
 
 ![myimg](readme_img/reg1.PNG) 
 
 ## Motivation
-I created this end-to-end project in my 6 week internship at **Silver Touch Technologies Ltd.**, which was held under PS1 program of BITS Pilani. We were a team of 4 members and everyone was assigned to work on different approaches to tackle this problem. I was assigned to create a CNN from scratch. Special thanks to the entire SilverTouch team for providing this wonderful opportunity to me.  
+I created this end-to-end project in my 6 week internship at **Silver Touch Technologies Ltd.** which was held under PS1 program of BITS Pilani. We were a team of 4 members and everyone was assigned to work on different approaches to tackle this problem. I was assigned to create a CNN from scratch. Special thanks to the entire SilverTouch team for providing this wonderful opportunity to me.
+
+### Importance in real world
+Recognizing a person is perhaps the most subconscious task done in our daily lives- right from waking up and recognizing our loved-ones to recognizing our boss at work. And the 2 most fundamental things required to identify someone are age & gender. With AI knocking on the door, no doubt this is one of the hottest fields in computer science these days. The goal of this project is to analyse the demographics of any population by just looking at their faces and predicting their age and gender. Here are some more real life applications of this project-
+* **Embedding with IoT and making a real life solution.** A simple e.g - Fit a camera outside a bar/restaurant that clicks photos of people entering. When sufficient number of people have entered, run the model on their stored faces and get the average age and gender. Accordingly, play the music / change the lights by integrating IoT into the system.
+
+* **Forensics** - To predict the age/gender of a dead person. This project can be extended to train on images of skeletons. In that case, it would be able to predict the age and gender of a person whose skeleton has been found. Perhaps even a skeleton belonging to the Stone Age !
+
+* **Missing person identification** - Suppose we know someone has got lost in a neighborhood. The person filing the complaint, could feed the age and gender of the lost person into a machine. And assuming CCTV cameras are installed at each road junction, the model might filter out images of those people whose age and gender that it predicted matches with the inputted information. This might not solve the problem completely, but surely reduces the search space by a mile. 
 
 ## Technical Details
 For detailed analysis, please refer to the report I have uploaded in this repository.
