@@ -1,3 +1,5 @@
+# Age & Gender Prediction from facial images
+
 ## Overview
 The basic goal of the project was to predict the age and gender of a person, given his/her facial image using Convolutional Neural Network. Both the models were trained on top of **Keras API** (which is in turn built on top of Tensorflow) and finally deployed in **Flask**.
 
