@@ -36,6 +36,18 @@ Recognizing a person is perhaps the most subconscious task done in our daily liv
 ## Technical Details
 For detailed analysis, please refer to the report I have uploaded in this repository.
 
+## Local testing
+Step 1 - Install (upgrade) the latest version of pip, python, tensorflow, keras using Anaconda prompt on Windows, or Terminal if you are using Linux or macOS.
+The command for checking the latest version of anything (say tensorflow) is to type `pip install tensorflow==`. 
+To install type `pip install tensorflow`
+
+Step 2  - Clone any one of (or both) - **Age & Gender Prediction , Age Estimation** present inside the **Deployment** folder . Store it somewhere on your local machine.
+
+Step 3 - Go into the directory of any folder that you cloned and type `python app.py` on Anaconda Prompt. From that location, **app.py** file should be directly accessible.
+
+Step 4 - A server is hosted locally and the model has been deployed. Go to that server (http://127.0.0.1:5000/) and upload a cropped image.
+
+**Note: Since, the datasets used by me were highly imbalanced (yet very popular :) ) (as you would see in the report/notebooks), the model is bound to make better predictions when the actual age lies between 23-24 to about 80 (especially the Age Estimation one. For age estimation pls enter only images between 25-75 yrs old as its dataset (WIKI) had 90 % images within that range.)** 
 
 ## To do
 1. Add a face-detection algorithm such as Dlib, MTCNN so that user need not crop the image manually before uploading.
