@@ -8,19 +8,19 @@ This project includes 2 seperate tasks  -
   
 *Model architecture* - 
 
-![myimg](classifiers.PNG)       
+![myimg](readme_img/classifiers.PNG)       
 
 * **Age Estimation** - This was a regression task. The model was trained on *WIKIFace* dataset (34,200 images). The model attained a validation mae of 6.55 which shows the average magnitude of error in predicting age.
 
 *Model architecture* -
 
-![myimg](regress.PNG)  
+![myimg](readme_img/regress.PNG)  
 
 ## Working Demo Screenshot
 
-![myimg](class1.PNG)                                                                                   
+![myimg](readme_img/class1.PNG)                                                                                   
 
-![myimg](reg1.PNG) 
+![myimg](readme_img/reg1.PNG) 
 
 ## Motivation
 I created this end-to-end project in my 6 week internship at **Silver Touch Technologies Ltd.**, which was held under PS1 program of BITS Pilani. We were a team of 4 members and everyone was assigned to work on different approaches to tackle this problem. I was assigned to create a CNN from scratch. Special thanks to the entire SilverTouch team for providing this wonderful opportunity to me.  
@@ -56,10 +56,10 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ## Technologies Used
 
-<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/1.png" width=300 align="left">
-<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/2.png" width=200 align="right">
-<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/4.PNG" width=200 align="left">
-<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/3.png" width=200 align="right"> 
+<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/readme_img/1.png" width=300 align="left">
+<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/readme_img/2.png" width=200 align="right">
+<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/readme_img/4.PNG" width=200 align="left">
+<img src="https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN/blob/master/readme_img/3.png" width=200 align="right"> 
                   
                   
                 
