@@ -49,7 +49,7 @@ Step 3 - Go into the directory of any folder that you cloned and type `python ap
 
 Step 4 - A server is hosted locally and the model has been deployed. Go to that server (http://127.0.0.1:5000/) and upload a cropped image.
 
-**Note: Since, the datasets used by me were highly imbalanced (yet very popular :) ) (as you would see in the report/notebooks), the model is bound to make better predictions when the actual age lies between 23-24 to about 80 (especially the Age Estimation one. For age estimation pls upload only images between 25-75 yrs old as its dataset (WIKI) had 90 % images within that range.)** 
+Note: Since, the datasets used by me were highly imbalanced (yet very popular :) ) (as you would see in the report/notebooks), **the model is bound to make better predictions when the actual age lies between 23-24 to about 80 (especially the Age Estimation one. For age estimation pls upload only images between 25-75 yrs old as its dataset (WIKI) had 90 % images within that range.)** 
 
 ## To do
 1. Add a face-detection algorithm such as Dlib, MTCNN so that user need not crop the image manually before uploading.
